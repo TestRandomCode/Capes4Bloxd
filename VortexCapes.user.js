@@ -15,7 +15,7 @@
     let targetUsernames = {};
     async function loadCapeAccess() {
         try {
-            const url = "https://raw.githubusercontent.com/GEORGECR0/ClientSideCapes/refs/heads/main/CapeAcces.json";
+            const url = "https://raw.githubusercontent.com/TestRandomCode/BloxdCapes/main/CapeAcces.json";
             const res = await fetch(url + "?t=" + Date.now());
             targetUsernames = await res.json();
         } catch (e) { console.error("Cape Load Error:", e); }
