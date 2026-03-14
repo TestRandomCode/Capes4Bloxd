@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         Tried to wor
+// @name         Vortex Copied Client
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Fire
 // @author       ME
 // @icon         https://i.postimg.cc/fRpcmPqN/Vortex-Logo.png
 // @match        https://bloxd.io/*
-// @run-at       document-end
+// @run-Vortex Copied Client
 // ==/UserScript==
 
 (function() {
