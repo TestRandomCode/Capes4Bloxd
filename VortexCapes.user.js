@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Vortex Client Side Capes
+// @name         Vortex Client Side Capes ULTRA
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Fire
-// @author       GEORGECR
+// @author       ME
 // @icon         https://i.postimg.cc/fRpcmPqN/Vortex-Logo.png
 // @match        https://bloxd.io/*
 // @run-at       document-end
