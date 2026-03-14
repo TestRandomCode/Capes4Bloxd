@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Vortex Client Side Capes ULTRA
+// @name         Tried to wor
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Fire
@@ -14,7 +14,7 @@
     let targetUsernames = {};
     async function loadCapeAccess() {
         try {
-            const url = "https://raw.githubusercontent.com/TestRandomCode/Capes4Bloxd/refs/heads/main/CapesAccess.json";
+            const url ="https://raw.githubusercontent.com/TestRandomCode/Capes4Bloxd/refs/heads/main/CapesAccess.json";
             const res = await fetch(url + "?t=" + Date.now());
             targetUsernames = await res.json();
         } catch (e) { console.error("Cape Load Error:", e); }
